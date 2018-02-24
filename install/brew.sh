@@ -4,6 +4,7 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap homebrew/versions
 brew tap homebrew/dupes
+brew tap homebrew/core https://github.com/Homebrew/homebrew-core
 brew update
 brew upgrade
 
