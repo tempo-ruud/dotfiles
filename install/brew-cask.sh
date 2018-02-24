@@ -33,6 +33,8 @@ brew cask install --appdir="/Applications" virtualbox
 
 # Google Applications
 echo Install Google Applications
+brew cask install --appdir="/Applications" google-chrome
+brew cask install --appdir="/Applications" google-chrome-canary
 brew cask install --appdir="/Applications" google-drive-file-stream
 
 # Additional Applications
