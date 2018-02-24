@@ -11,7 +11,9 @@ brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" divvy
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" easyfind
+brew cask install --appdir="/Applications" hazel
 brew cask install --appdir="/Applications" java
+brew cask install --appdir="/Applications" keka
 brew cask install --appdir="/Applications" little-snitch
 brew cask install --appdir="/Applications" spectacle
 brew cask install --appdir="/Applications" vlc
@@ -21,6 +23,8 @@ echo Install Development Applications
 brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" github
 brew cask install --appdir="/Applications" iterm2
+brew cask install --appdir="/Applications" sequel-pro
+brew cask install --appdir="/Applications" sketch
 brew cask install --appdir="/Applications" sourcetree
 brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" transmit
@@ -29,11 +33,12 @@ brew cask install --appdir="/Applications" virtualbox
 
 # Google Applications
 echo Install Google Applications
-brew cask install --appdir="/Applications" google-drive
+brew cask install --appdir="/Applications" google-drive-file-stream
 
 # Additional Applications
 echo Install Additional Applications
 brew cask install --appdir="/Applications" firefox
+brew cask install --appdir="/Applications" grammarly
 brew cask install --appdir="/Applications" jdownloader
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
